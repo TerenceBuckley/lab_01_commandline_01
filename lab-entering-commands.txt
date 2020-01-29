@@ -16,7 +16,17 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
+----Adlm				Public
+Applications			QLData
+Desktop				Things
+Documents			ipe.properties
+Downloads			isus
+Library				lab_01_commandline_01
+Movies				pslog_20200109_170408.log
+Music				pymel.log
+Pictures			xgen
+v314-ent-017:~ student$ ls
+-----
 
 
 
