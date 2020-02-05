@@ -31,17 +31,20 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
-
+/Users/student/mtec1002
+v314-ent-017:mtec1002 student$ 
 
 ==========
 5. Type:
+
 
 $ mkdir animals
 $ ls
 
 Copy and paste the output below.
-----------
+---
+-314-ent-017:mtec1002 student$ ls
+animals----
 
 
 
@@ -52,7 +55,8 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
-----------
+-314-ent-017:mtec1002 student$ ls
+animals	food--------
 
 
 
@@ -74,7 +78,8 @@ $ cd foo/bar/baz/qux
 $ pwd
 
 Copy and paste the output below.
-----------
+--v314-ent-017:mtec1002 student$ ls
+animals	foo	food-------
 
 
 
@@ -85,7 +90,9 @@ $ cd ../..
 $ pwd
 
 Copy and paste the output below.
-----------
+--
+--Users
+----
 
 
 
@@ -107,7 +114,7 @@ $ cd ../../../..
 $ pwd
 
 Copy and paste the output below.
-----------
+--Users/student/mtec1002-------
 
 
 
@@ -120,8 +127,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
-
+drwxr-xr-x  3 student  staff  102 Feb  4 20:07 foo
+drwxr-xr-x  2 student  staff   68 Feb  4 20:05 food
 
 ==========
 13. Type:
@@ -131,7 +138,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -141,8 +148,8 @@ $ cd /Volumes
 $ pwd
 
 Copy and paste the output into the space below.
-----------
-
+----/Volumes
+v314-ent-017:V-----
 
 
 ==========
@@ -153,8 +160,9 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Volumes-bash: cd: /unknown_folder: No such file or directory
+v314-ent-017:Volumes student$ pwd
+/Volumes
 
 ==========
 15. Type:
@@ -163,7 +171,7 @@ $ cd ~/mtec1002
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+---/Users/student/mtec1002------
 
 
 
@@ -173,7 +181,7 @@ Copy and paste the output into the space below.
 $ hostname
 
 Copy and paste the output into the space below.
-----------
+-----v314-ent-017.local----
 
 
 
@@ -202,7 +210,7 @@ strawbery
 lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
-----------
+----314-ent-017:mtec1002 student$ mkdir -p pineapple/orange/strawberry/lemon-----
 
 
 
@@ -218,7 +226,7 @@ Write the command you used to create the directory below:
 20. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
-----------
+ls -alt
 
 
 
@@ -230,7 +238,7 @@ What is the modified date of the aardvark directory?
 * baz should be inside bar
 
 What command did you use?
-----------
+mkdir -p foo/bar/baz
 
 
 
@@ -238,7 +246,7 @@ What command did you use?
 22. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
-----------
+cd ../../..
 
 
 
@@ -246,42 +254,41 @@ What command did you use?
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
-----------
-
+----------cd ../../
 
 ==========
 24. What command is used to delete empty directories?
-----------
+rmdir directory
 
 
 
 ==========
 25. What command is used to print out your current working directory?
-----------
+pwd
 
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
-----------
+-a
 
 
 
 ==========
 27. What's the shortcut for home directory?
-----------
+cd ~
 
 
 
 ==========
 28. What's a pathname?
-----------
+ls /Users/student/
 
 
 
 ==========
 29. What's a directory?
-----------
+is a folder
 
 
 
